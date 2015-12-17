@@ -1,6 +1,6 @@
 #Description:
 
-The repo contains some of knowledge-based kaggle contest that I participated. My aim of these contest is to learn and apply/predictive/ML models into practical problems
+The repo contains some of knowledge-based kaggle contest that I participated. The aim of these contests is to learn and apply predictive/ML models into practical problems
 
 #List of attempted contests:
 
