@@ -1,6 +1,6 @@
 #Description:
 
-The repo contains some of knowledge-awarded kaggle contests. 
+The repo contains python scripts for some of knowledge-awarded kaggle contests. 
 
 #List of attempted contests:
 
