@@ -7,7 +7,7 @@
 *  [Data](https://www.kaggle.com/c/word2vec-nlp-tutorial/data)
 	
 #Notebook :
-Please see [Notebook]() for step-by-step tackling the contest
+Please see [Notebook](https://github.com/tranlyvu/kaggle/blob/master/Bag%20of%20Words%20Meets%20Bags%20of%20Popcorn/notebook/bag%20of%20words%20meet%20bag%20of%20porncorn.ipynb) for step-by-step tackling the contest
 	
 #Source code:
 Source code can be found [here](https://github.com/tranlyvu/kaggle/tree/master/Bag%20of%20Words%20Meets%20Bags%20of%20Popcorn/main)
