@@ -15,7 +15,7 @@ Contributions are welcome! For bug reports or requests please submit an [issue](
 Feel free to contact me to discuss any issues, questions, or comments.
 *  Email: vutransingapore@gmail.com
 *  Twitter: [@vutransingapore](https://twitter.com/vutransingapore)
-*  GitHub: [vutransingapore](https://github.com/tranlyvu)
+*  GitHub: [vu tran](https://github.com/tranlyvu)
 
 #License
 See the LICENSE file for license rights and limitations (MIT).

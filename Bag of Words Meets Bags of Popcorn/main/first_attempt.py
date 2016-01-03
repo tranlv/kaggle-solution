@@ -44,14 +44,14 @@ def corpus_preprocessing(corpus):
         stemmed_and_lemmatized_text=[lemmatize_with_WordNet(token,tag) for token,tag in tagged_words_after_stem]
 		
 		#join all the tokens
-        clean_review=" ".join(w for w in stemmed_and_lemmatized_words)
+        clean_review=" ".join(w for w in  stemmed_and_lemmatized_text)
         preprocessed_corpus.append(clean_review)		
 
     return preprocessed_corpus
 	
 def main():
 	#loading and preprocessing original train dataset
-	train_data=pd.read_csv("C:/Users/vutran/Desktop/github/kaggle/Bag of Words Meets Bags of Popcorn/data/labeledTrainData.tsv", header=0,delimiter="\t", quoting=3)
+	train_data=pd.read_csv("/data/labeledTrainData.tsv", header=0,delimiter="\t", quoting=3)
 	
 	#features from training set
 	train_features=train_data.review
@@ -68,20 +68,20 @@ def main():
 	model.fit(train_features,train_target)
 	
 	#reading test data
-	test_data=pd.read_csv("http://localhost:8888/tree/data/testData.tsv", header=0,delimiter="\t", quoting=3)
+	test_data=pd.read_csv("/data/testData.tsv", header=0,delimiter="\t", quoting=3)
 
 	#features from test data
 	test_features=test_data.review
 
 	#pre-processing test features
 	test_features=corpus_preprocessing(test_features)
-	test_features=vectorizer.fit_transform(test_features)
+	test_features=vectorizer.transform(test_features)
 
 	#predicting the sentiment for test set
 	prediction=model.predict(test_features)
 	
 	#preparing submission file
-	pd.DataFrame( data={"id":test_data["id"], "sentiment":prediction} ).to_csv("naive_Baiyes_bow.csv", index=False, quoting=3 )	
+	pd.DataFrame( data={"id":test_data["id"], "sentiment":prediction} ).to_csv("first_attempt.csv", index=False, quoting=3 )	
 
 if __name__=="__main__":
 	main()
