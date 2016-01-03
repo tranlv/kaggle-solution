@@ -1,3 +1,11 @@
+"""
+	The script generate score for the performance evaluation for kaggle contest "bag of words meets bag of popcorn",
+using split data from only train data set	
+	Text represents using tf-idf
+	Predictive model: naive_bayes
+"""
+
+
 from sklearn.metric import roc_auc_score,roc_curve
 import first_attempt
 from sklearn.cross_validation import train_test_split	
