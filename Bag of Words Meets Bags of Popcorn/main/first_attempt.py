@@ -12,7 +12,7 @@ import re
 from bs4 import BeautifulSoup
 import nltk
 from sklearn.naive_bayes import MultinomialNB
-
+from sklearn.decomposition import TruncatedSVD 
 
 porter=nltk.PorterStemmer()
 wnl = nltk.WordNetLemmatizer()
@@ -60,6 +60,9 @@ def main():
 	train_features=corpus_preprocessing(train_features)
 	vectorizer= TfidfVectorizer(stop_words='english')
 	train_features=vectorizer.fit_transform(train_features)
+	tsvd=TruncatedSVD(100)
+	tsvd.fit(corpus)
+	train_features=tsvd.transform(train_features)
 	
 	# training baive_naives
 	model=MultinomialNB()
@@ -76,7 +79,8 @@ def main():
 	#pre-processing test features
 	test_features=corpus_preprocessing(test_features)
 	test_features=vectorizer.transform(test_features)
-
+	test_features=tsvd.transform(test_features)
+	
 	#predicting the sentiment for test set
 	prediction=model.predict(test_features)
 	
