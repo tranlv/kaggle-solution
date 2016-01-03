@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 import pandas as pd
 import re
 from bs4 import BeautifulSoup
@@ -66,21 +64,21 @@ if __name__ == "__main__":
 					for sentence in sentences:
 						yield preprocessed_sentence(sentence)			
 				
-	print "Training word2vec model..."
+	# Training word2vec model
 	sentences = MySentences('C:/Users/VU') 	
 	model = gensim.models.Word2Vec(sentences, min_count=5, workers = cpu_count())
 	model.save('my_model')	
 
-	print " clustering words trained from word2vec model..."
+	#clustering words trained from word2vec model
 	word_vectors = model.syn0
 	num_clusters=word_vectors.shape[0]/5
 	mean_clustering=KMeans(n_clusters=num_clusters)
 	idx=kmean_clustering.fit_predict(word_vectors)
 
-	print"assigning cluster number for each words... "
+	#assigning cluster number for each words
 	word_centroid_map=dict(zip(model.index2word,idx))
 
-	print "loading original labeled train dataset..."
+	#"loading original labeled train dataset..."
 	labeled_train_data=pd.read_csv(".../labeledTrainData.tsv", header=0,delimiter="\t", quoting=3)
 
 	print "training centroids for each review from original labeled training set... "
