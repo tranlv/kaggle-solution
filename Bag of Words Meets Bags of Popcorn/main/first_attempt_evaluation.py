@@ -12,7 +12,7 @@ from sklearn.cross_validation import train_test_split
 
 def main():
 	#loading and preprocessing original train dataset
-	train_data=pd.read_csv("/data/labeledTrainData.tsv", header=0,delimiter="\t", quoting=3)
+	train_data=pd.read_csv("/labeledTrainData.tsv", header=0,delimiter="\t", quoting=3)
 	
 	# Split 80-20 train vs test data
 	split_train_features, split_test_features, split_train_target, split_test_target= 

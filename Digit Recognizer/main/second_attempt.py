@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 import pandas as pd
 import numpy as np
 from sklearn.svm import SVC

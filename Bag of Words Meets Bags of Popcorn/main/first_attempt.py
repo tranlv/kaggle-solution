@@ -51,7 +51,7 @@ def corpus_preprocessing(corpus):
 	
 def main():
 	#loading and preprocessing original train dataset
-	train_data=pd.read_csv("/data/labeledTrainData.tsv", header=0,delimiter="\t", quoting=3)
+	train_data=pd.read_csv("/labeledTrainData.tsv", header=0,delimiter="\t", quoting=3)
 	
 	#features from training set
 	train_features=train_data.review
@@ -61,7 +61,7 @@ def main():
 	vectorizer= TfidfVectorizer(stop_words='english')
 	train_features=vectorizer.fit_transform(train_features)
 	tsvd=TruncatedSVD(100)
-	tsvd.fit(corpus)
+	tsvd.fit(train_features)
 	train_features=tsvd.transform(train_features)
 	
 	# training baive_naives
@@ -71,7 +71,7 @@ def main():
 	model.fit(train_features,train_target)
 	
 	#reading test data
-	test_data=pd.read_csv("/data/testData.tsv", header=0,delimiter="\t", quoting=3)
+	test_data=pd.read_csv("/testData.tsv", header=0,delimiter="\t", quoting=3)
 
 	#features from test data
 	test_features=test_data.review
