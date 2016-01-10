@@ -50,7 +50,7 @@ def corpus_preprocessing(corpus):
     return preprocessed_corpus
 	
 def main():
-	#loading and preprocessing original train dataset
+	#loading original train dataset
 	train_data=pd.read_csv("/labeledTrainData.tsv", header=0,delimiter="\t", quoting=3)
 	
 	#features from training set
@@ -70,7 +70,7 @@ def main():
 	#fitting the model
 	model.fit(train_features,train_target)
 	
-	#reading test data
+	#loading test data
 	test_data=pd.read_csv("/testData.tsv", header=0,delimiter="\t", quoting=3)
 
 	#features from test data
