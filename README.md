@@ -8,6 +8,11 @@ Contest| Description
 [Digit Recognizer](https://github.com/tranlyvu/kaggle/tree/master/Digit%20Recognizer) | An image recognition contest whose challenge was to classify handwritten single digits 
 [San Francisco Crime Classification](https://github.com/tranlyvu/kaggle/tree/master/San%20Francisco%20Crime%20Classification) | A classification contest whose challenge was to Predict the category of crimes that occurred in San Francisco  
 
+#Notebook
+[Bag of Words Meets Bags of Popcorn]http://nbviewer.ipython.org/gist/tranlyvu/bc2ea679ba0a98ec26c5)
+[Digit Recognizer](http://nbviewer.ipython.org/gist/tranlyvu/da54146d97147cb401c4)
+San Francisco Crime Classification
+
 #Contribution
 Contributions are welcome! For bug reports or requests please submit an [issue](https://github.com/tranlyvu/kaggle/issues).
 
