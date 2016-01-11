@@ -22,7 +22,7 @@ def main():
 	#target from training set
 	train_target=train.ix[:,0]
 
-	#pro-processing train features
+	#pre-processing train features
 	my_pca=PCA(n_components=0.90,whiten=True)
 	pca_train_features=my_pca.fit_transform(train_data)
 

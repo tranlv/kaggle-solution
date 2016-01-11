@@ -11,7 +11,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.cross_validation import train_test_data_split,cross_val_score,KFold
 from sklearn.preprocessing import LabelEncoder
 from sklearn.grid_search import GridSearchCV
-from multiprocessing import cpu_count
+
 
 main():
 	#loading original train dataset
@@ -28,7 +28,7 @@ main():
 	# training random forest
 	model=RandomForestClassifier()
 
-	print "starting Grid search for model evaluation ..."
+	# Grid search for model evaluation 
 	grid_search_params={'criterion':['gini','entropy'],'n_estimators':[16,32,64,128],'max_features':['auto','log2','sqrt']}
 	gs=GridSearchCV(estimator=model,param_grid=grid_search_params,scoring='log_loss',n_jobs=-1)
 
