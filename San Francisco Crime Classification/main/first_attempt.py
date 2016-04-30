@@ -1,4 +1,4 @@
-"""
+x"""
 	The script generate submission file for the kaggle contest_data "San Francisco Crime Classification", 
 	A classification contest_data whose challenge was to Predict the category of crimes that occurred in San Francisco  
 
