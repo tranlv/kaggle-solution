@@ -11,7 +11,7 @@ Contest| Description
 # Notebook
 *	[Bag of Words Meets Bags of Popcorn](http://nbviewer.ipython.org/gist/tranlyvu/bc2ea679ba0a98ec26c5)
 *	[Digit Recognizer](http://nbviewer.ipython.org/gist/tranlyvu/da54146d97147cb401c4)
-*	San Francisco Crime Classification
+*	[San Francisco Crime Classification](https://github.com/tranlyvu/kaggle-contests/tree/master/San%20Francisco%20Crime%20Classification)
 
 # Contribution
 Contributions are welcome! For bug reports or requests please submit an [issue](https://github.com/tranlyvu/kaggle/issues).
@@ -20,7 +20,7 @@ Contributions are welcome! For bug reports or requests please submit an [issue](
 Feel free to contact me to discuss any issues, questions, or comments.
 *  Email: vutransingapore@gmail.com
 *  Twitter: [@vutransingapore](https://twitter.com/vutransingapore)
-*  GitHub: [vu tran](https://github.com/tranlyvu)
+*  GitHub: [Tran Ly Vu](https://github.com/tranlyvu)
 
 # License
 See the LICENSE file for license rights and limitations (MIT).

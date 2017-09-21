@@ -1,14 +1,14 @@
 # Overview:
 An image recognition contest whose challenge was to classify handwritten single digits 
 	
-#Info from competition site:
+# Info from competition site:
 *  [Description] (https://www.kaggle.com/c/digit-recognizer)
 *  [Evaluation](https://www.kaggle.com/c/digit-recognizer/details/evaluation)
 *  [Data](https://www.kaggle.com/c/digit-recognizer/data)
 	
-#Notebook :
+# Notebook :
 Please see [Notebook](http://nbviewer.ipython.org/gist/tranlyvu/da54146d97147cb401c4) for step-by-step tackling the contest
 	
-#Source code:
+# Source code:
 Source code can be found [here](https://github.com/tranlyvu/kaggle/tree/master/Digit%20Recognizer/main)
 
