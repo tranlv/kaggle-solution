@@ -12,7 +12,7 @@ The repo contains my attemp in some kaggle contests.
 List of contests
 ---
 
-# [Bag of Words Meets Bags of Popcorn](https://github.com/tranlyvu/kaggle/tree/master/Bag%20of%20Words%20Meets%20Bags%20of%20Popcorn): A natural language processing contest whose challenge was to predict IMDB movie sentiment from multi-paragraph movie reviews. Demonstrating the handling of text feature - [Notebook](http://nbviewer.ipython.org/gist/tranlyvu/bc2ea679ba0a98ec26c5)
+* [Bag of Words Meets Bags of Popcorn](https://github.com/tranlyvu/kaggle/tree/master/Bag%20of%20Words%20Meets%20Bags%20of%20Popcorn): A natural language processing contest whose challenge was to predict IMDB movie sentiment from multi-paragraph movie reviews. Demonstrating the handling of text feature - [Notebook](http://nbviewer.ipython.org/gist/tranlyvu/bc2ea679ba0a98ec26c5)
 
 * [Digit Recognizer](https://github.com/tranlyvu/kaggle/tree/master/Digit%20Recognizer): An image recognition contest whose challenge was to classify handwritten single digits - [Notebook](http://nbviewer.ipython.org/gist/tranlyvu/da54146d97147cb401c4)
 
