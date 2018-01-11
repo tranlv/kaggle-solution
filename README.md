@@ -16,7 +16,7 @@ List of contests
 
 * [Digit Recognizer](https://github.com/tranlyvu/kaggle/tree/master/Digit%20Recognizer): An image recognition contest whose challenge was to classify handwritten single digits - [Notebook](http://nbviewer.ipython.org/gist/tranlyvu/da54146d97147cb401c4)
 
-* [San Francisco Crime Classification](https://github.com/tranlyvu/kaggle/tree/master/San%20Francisco%20Crime%20Classification): A classification contest whose challenge was to Predict the category of crimes that occurred in San Francisco - [Notebok](https://github.com/tranlyvu/kaggle-contests/tree/master/San%20Francisco%20Crime%20Classification) 
+* [San Francisco Crime Classification](https://github.com/tranlyvu/kaggle/tree/master/San%20Francisco%20Crime%20Classification): A classification contest whose challenge was to Predict the category of crimes that occurred in San Francisco - [Notebook](https://github.com/tranlyvu/kaggle-contests/tree/master/San%20Francisco%20Crime%20Classification) 
 
 ---
 Contribution
