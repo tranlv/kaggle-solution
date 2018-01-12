@@ -1,12 +1,8 @@
 # **Kaggle**
 
+My attemp in some kaggle contests. 
+
 <img src="img/kaggle.png" width="480" alt="Combined Image" />
-
----
-Overview
----
-
-The repo contains my attemp in some kaggle contests. 
 
 ---
 List of contests
@@ -18,11 +14,28 @@ List of contests
 
 * [San Francisco Crime Classification](https://github.com/tranlyvu/kaggle/tree/master/San%20Francisco%20Crime%20Classification): A classification contest whose challenge was to Predict the category of crimes that occurred in San Francisco - [Notebook](https://github.com/tranlyvu/kaggle-contests/tree/master/San%20Francisco%20Crime%20Classification) 
 
+--- 
+Release History
+---
+
+I do not keep track of release history for this repo.
+
 ---
 Contribution
 ---
 
 Contributions are welcome! For bug reports or requests please submit an [issue](https://github.com/tranlyvu/kaggle/issues).
+
+
+For new feature contribution, please follow the following instruction:
+
+```
+1. Fork it (https://github.com/tranlyvu/wiki-link.git)
+2. Create your feature branch (`git checkout -b feature/new`)
+3. Commit your changes (`git commit -am 'Add some new feature'`)
+4. Push to the branch (`git push origin feature/new`)
+5. Create a new Pull Request
+```
 
 ---
 Contact
