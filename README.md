@@ -26,15 +26,14 @@ Contribution
 
 Contributions are welcome! For bug reports or requests please submit an [issue](https://github.com/tranlyvu/kaggle/issues).
 
-
 For new feature contribution, please follow the following instruction:
 
 ```
-1. Fork it (https://github.com/tranlyvu/kaggle.git)
-2. Create your feature branch (`git checkout -b new-feat`)
+1. Fork it (`$git clone https://github.com/tranlyvu/kaggle.git`)
+2. Create your feature branch (`git checkout -b new/your-feature`)
 3. Commit your changes (`git commit -am 'Add some new feature'`)
-4. Push to the branch (`git push origin new-feat`)
-5. Create a new Pull Request
+4. Push to the branch (`git push origin new/your-feature`)
+5. Create a new Pull Request at https://github.com/tranlyvu/kaggle/pulls
 ```
 
 ---
