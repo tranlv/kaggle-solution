@@ -49,6 +49,6 @@ Feel free to contact me to discuss any issues, questions, or comments.
 ---
 License
 ---
-See the [LICENSE](https://github.com/tranlyvu/kaggle/blob/master/LICENSE.md) file for license rights and limitations (MIT).
+See the [LICENSE](https://github.com/tranlyvu/kaggle/blob/master/LICENSE.md) file for license rights and limitations (Apache License 2.0).
 
 	
