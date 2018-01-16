@@ -5,7 +5,7 @@ My attemps in some kaggle competitions.
 <img src="img/kaggle.png" width="480" alt="Combined Image" />
 
 ---
-List of contests
+List of Competitions
 ---
 
 * Project 1 - [Bag of Words Meets Bags of Popcorn](https://github.com/tranlyvu/kaggle/tree/master/Bag%20of%20Words%20Meets%20Bags%20of%20Popcorn): A natural language processing contest whose challenge was to predict IMDB movie sentiment from multi-paragraph movie reviews. Demonstrating the handling of text feature - [Notebook](http://nbviewer.ipython.org/gist/tranlyvu/bc2ea679ba0a98ec26c5)
