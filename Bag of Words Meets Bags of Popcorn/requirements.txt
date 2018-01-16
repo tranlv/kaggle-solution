@@ -1,5 +1,0 @@
-nltk
-pandas
-sklearn
-bs4
-matplotlib
