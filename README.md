@@ -14,6 +14,12 @@ List of Competitions
 
 * Project 3 - [San Francisco Crime Classification](https://github.com/tranlyvu/kaggle/tree/master/San%20Francisco%20Crime%20Classification): A classification contest whose challenge was to Predict the category of crimes that occurred in San Francisco - [Notebook](https://github.com/tranlyvu/kaggle-contests/tree/master/San%20Francisco%20Crime%20Classification) 
 
+---
+Development Environment
+---
+
+In order to set up development environment to run all projects, follow instruction [here](https://github.com/tranlyvu/kaggle/tree/master/env).
+
 --- 
 Release History
 ---
