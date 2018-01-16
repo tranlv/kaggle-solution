@@ -1,1 +1,33 @@
 name: kaggle
+channels:
+- defaults
+dependencies:
+- certifi=2017.11.5=py36hb8ac631_0
+- icc_rt=2017.0.4=h97af966_0
+- intel-openmp=2018.0.0=hd92c6cd_8
+- mkl=2018.0.1=h2108138_4
+- numpy=1.14.0=py36h4a99626_0
+- pip=9.0.1=py36h226ae91_4
+- python=3.6.4=h6538335_0
+- scikit-learn=0.19.1=py36h53aea1b_0
+- scipy=1.0.0=py36h1260518_0
+- setuptools=38.4.0=py36_0
+- vc=14=h0510ff6_3
+- vs2015_runtime=14.0.25123=3
+- wheel=0.30.0=py36h6c3ec14_1
+- wincertstore=0.2=py36h7fe50ca_0
+- pip:
+  - chardet==3.0.4
+  - flake8==3.4.1
+  - idna==2.6
+  - mccabe==0.6.1
+  - pew==1.1.0
+  - pipenv==8.2.7
+  - psutil==5.3.1
+  - pycodestyle==2.3.1
+  - pyflakes==1.5.0
+  - requests==2.18.4
+  - urllib3==1.22
+  - virtualenv-clone==0.2.6
+prefix: C:\Users\workshop\Miniconda3\envs\kaggle
+
