@@ -7,7 +7,7 @@ Here are Notebook and [source code](https://github.com/tranlyvu/kaggle/tree/mast
 <img src="../img/crime.jpg" width="480" alt="Combined Image" />
 
 ---
-Contest Information
+Competition Information
 ---
 
 *  [Description](https://www.kaggle.com/c/sf-crime)
