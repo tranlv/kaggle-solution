@@ -1,6 +1,6 @@
 # **Kaggle**
 
-My attemp in some kaggle contests. 
+My attemps in some kaggle competitions. 
 
 <img src="img/kaggle.png" width="480" alt="Combined Image" />
 
