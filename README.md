@@ -20,12 +20,6 @@ Development Environment
 
 In order to set up development environment to run all projects, follow instruction [here](https://github.com/tranlyvu/kaggle/tree/master/env).
 
---- 
-Release History
----
-
-I do not keep track of release history for this repo.
-
 ---
 Contribution
 ---
@@ -41,15 +35,6 @@ For new feature contribution, please follow the following instruction:
 4. Push to the branch (`git push origin new/your-feature`)
 5. Create a new Pull Request at https://github.com/tranlyvu/kaggle/pulls
 ```
-
----
-Contact
----
-
-Feel free to contact me to discuss any issues, questions, or comments.
-*  Email: vutransingapore@gmail.com
-*  Twitter: [@vutransingapore](https://twitter.com/vutransingapore)
-*  GitHub: [Tran Ly Vu](https://github.com/tranlyvu)
 
 ---
 License
